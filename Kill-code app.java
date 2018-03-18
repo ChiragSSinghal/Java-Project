@@ -40,7 +40,7 @@ public class app {
 		while(true) {	//Fourth infinite loop, broken only when correct passcode is entered
 			System.out.println("\nEnter the final code:");
 			fourth_code = ip.next();
-			if (fourth_code.compareToIgnoreCase("HORSE") == 0)//Comparng inputed string with another string, ignoring case. If strings are equal compareToIgnoreCase returns a '0'
+			if (fourth_code.compareToIgnoreCase("HORSE") == 0)	//Comparng inputed string with another string, ignoring case. If strings are equal compareToIgnoreCase returns a '0'
 				break;
 			else {
 				System.out.println("Wrong code try again.");
