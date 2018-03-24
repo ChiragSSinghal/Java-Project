@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class app {
+public class Yahtzee {
 	
 	//Function for dice roll
 	public static void dr (int Dice[]) {

@@ -1,7 +1,7 @@
 import java.util.*;	//Required for Scanner
 import java.io.*;	//Required for clear screen command
 
-public class app {
+public class KCapp {
 	public static void main(String[] args) throws IOException, InterruptedException { //IoException and InterruptedException are required for DOS command prompt clear screen
 		String first_code, second_code, third_code, fourth_code;
 		new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();	//Statement for clear screen. Works only with Win10 command prompt
