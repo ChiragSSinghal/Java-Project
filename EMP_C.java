@@ -87,8 +87,7 @@ public class EMP_C {
 	}
 	public void disp() {
 		System.out.println("The employee id is " + getid());
-		System.out.println("The employee id is " + getfn());
-		System.out.println("The employee id is " + getln());
+		System.out.println("The employee name is " + getfn() + " " + getln());
 		System.out.println("The employee address is " + getaddr1() + ", Apt - " + getaddr2() + ", " + getcity()
 		+ ", " + getstate() + ", " + getcountry());
 		System.out.println("The employee phone is " + getph());
